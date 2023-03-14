@@ -44,11 +44,13 @@ public class cadastro extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(255, 153, 0));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel1.setFont(new java.awt.Font("Liberation Sans", 0, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Loma", 1, 36)); // NOI18N
         jLabel1.setText("Cadastrar Cliente");
 
+        jLabel2.setFont(new java.awt.Font("Loma", 1, 24)); // NOI18N
         jLabel2.setText("Nome:");
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -57,6 +59,7 @@ public class cadastro extends javax.swing.JFrame {
             }
         });
 
+        jLabel3.setFont(new java.awt.Font("Loma", 1, 24)); // NOI18N
         jLabel3.setText("Endereço:");
 
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
@@ -65,8 +68,10 @@ public class cadastro extends javax.swing.JFrame {
             }
         });
 
+        jLabel4.setFont(new java.awt.Font("Loma", 1, 24)); // NOI18N
         jLabel4.setText("CPF:");
 
+        jLabel5.setFont(new java.awt.Font("Loma", 1, 24)); // NOI18N
         jLabel5.setText("Email:");
 
         jTextField4.addActionListener(new java.awt.event.ActionListener() {
@@ -75,6 +80,7 @@ public class cadastro extends javax.swing.JFrame {
             }
         });
 
+        jLabel6.setFont(new java.awt.Font("Loma", 1, 24)); // NOI18N
         jLabel6.setText("Telefone:");
 
         jButton1.setText("Sair");
@@ -123,7 +129,7 @@ public class cadastro extends javax.swing.JFrame {
                         .addComponent(jLabel4)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(135, Short.MAX_VALUE))
+                .addContainerGap(96, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -150,7 +156,7 @@ public class cadastro extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
                     .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 132, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 68, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2))
